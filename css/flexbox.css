@@ -8,6 +8,13 @@
     display: flex;
 }
 
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* Quebra para a próxima coluna, mas precisa ter um height definido para saber o limite */
+    height: 255px;
+}
+
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
