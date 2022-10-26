@@ -64,12 +64,19 @@
     flex-direction: column;
     text-align: center;
 
-    flex-grow: 1;
+    flex-grow: 2;
+}
+
+.videoSobre-video {
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .videoSobre-sobre-list {
     flex-grow: 1;
 }
+
+
 
 /* Configuração Mobile */
 @media (max-width: 768px) {
@@ -87,7 +94,7 @@
     flex-direction: column;
   }
 
-  .conteudoPrincipal-cursos-link {
+  .conteudoPrincipal-cursos-link {  
     width: 100%;
   }
 
@@ -115,5 +122,13 @@
 
   .cabecalhoPrincipal-nav-link-app {
     order: -1; /* Muda a ordem de um elemento */
+  }
+
+  .videoSobre .container {
+    flex-direction: column;
+  }
+
+  .videoSobre-video {
+    margin: 0 auto;
   }
 }
